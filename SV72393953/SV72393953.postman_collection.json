@@ -1,0 +1,368 @@
+{
+	"info": {
+		"_postman_id": "c1c683ab-d03d-4de5-a9c6-011fa6dbfcb9",
+		"name": "SV72393953",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9887967"
+	},
+	"item": [
+		{
+			"name": "TestAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/api/test/all",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"api",
+						"test",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/api/test/user",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"api",
+						"test",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestAdmin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/api/test/admin",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"api",
+						"test",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\":\"cristhian\",\r\n\"email\":\"cristhian@gmail.com\",\r\n\"password\":\"123456\",\r\n\"roles\":[\"admin\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4569/api/auth/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\":\"cristhian\",\r\n\"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4569/api/auth/signin",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"api",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignOut",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/api/auth/signout",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"api",
+						"auth",
+						"signout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/getProducts",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"getProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/getProductById/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"getProductById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/createProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"createProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/updateProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"updateProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProductById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/deleteProductById/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"deleteProductById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCoupons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/getCoupons",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"getCoupons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCouponById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/getCouponById/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"getCouponById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCoupon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/createCoupon",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"createCoupon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCoupon",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/updateCoupon",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"updateCoupon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCouponById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/deleteCouponById/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"deleteCouponById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/getCart",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"getCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddToCart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4569/addToCart",
+					"host": [
+						"localhost"
+					],
+					"port": "4569",
+					"path": [
+						"addToCart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
